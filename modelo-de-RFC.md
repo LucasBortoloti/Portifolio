@@ -66,10 +66,10 @@ Requisitos Não-Funcionais
 ● Repositório de dados estruturados para melhorar o desempenho.
 
 ## 3.3. Stack Tecnológica
-● Linguagens: Python e PHP
-● Framework Backend: Adianti Framework
-● Banco de Dados: MySQL
-● Frontend: HTML, CSS e JavaScript
+● Linguagens: Python e PHP  
+● Framework Backend: Adianti Framework  
+● Banco de Dados: MySQL  
+● Frontend: HTML, CSS e JavaScript  
 ● Machine Learning: Scikit-learn
 
 ### 3.4. Considerações de Segurança
