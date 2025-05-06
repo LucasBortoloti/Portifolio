@@ -1,48 +1,75 @@
 # Capa
-
-- **Título do Projeto**: [Título claro e conciso que reflete a essência do produto ou ferramenta].
-- **Nome do Estudante**: [Nome completo do estudante].
-- **Curso**: Engenharia de Software.
-- **Data de Entrega**: [Data].
+RFC - GESTÃO DE VENDAS  
+Título do Projeto: Sistema Inteligente de Gestão de Vendas  
+Nome do Estudante: Lucas Bortoloti  
+Curso: Engenharia de Software  
+Data de Entrega: 01/04/2025  
 
 # Resumo
+Este documento apresenta os requisitos funcionais e não funcionais do Sistema Inteligente 
+de Gestão de Vendas. O projeto tem como diferencial um módulo de recomendação voltado 
+aos vendedores, sugerindo produtos a oferecer com base no histórico de compras dos 
+clientes. O documento abrange desde o contexto e justificativa até a arquitetura e 
+tecnologias utilizadas.
 
-Breve descrição do conteúdo do documento, incluindo o propósito do projeto e os principais pontos de discussão.
+# 1. Introdução
 
-## 1. Introdução
+## 1.1 Contexto
+A gestão de vendas é essencial para o sucesso de qualquer empresa. No entanto, 
+vendedores frequentemente dependem de experiência prévia ou intuição para recomendar 
+produtos aos clientes. Este projeto visa introduzir inteligência artificial para automatizar e 
+otimizar esse processo.
 
-- **Contexto**: Breve descrição do contexto que envolve o projeto.
-- **Justificativa**: Explicação da relevância do projeto para o campo da engenharia de software.
-- **Objetivos**: Descrição do objetivo principal do projeto e de quaisquer objetivos secundários.
+## 1.2 Justificativa
+A maioria dos sistemas de gestão de vendas foca em controle administrativo e relatórios, 
+mas poucos oferecem suporte estratégico aos vendedores. A recomendação de produtos 
+baseada em dados pode aumentar a taxa de conversão e a satisfação do cliente.  
 
-## 2. Descrição do Projeto
+## 1.3 Objetivos
+Objetivo principal: Desenvolver um sistema de gestão de vendas com um mecanismo de 
+recomendação de produtos para vendedores.  
+Objetivos secundários:  
+● Implementar relatórios e gráficos.  
+● Criar um sistema escalável e seguro.  
+● Utilizar IA para melhorar estratégias de venda.
 
-- **Tema do Projeto**: Detalhes do tema, incluindo o produto ou ferramenta a ser desenvolvido.
-- **Problemas a Resolver**: Lista dos principais problemas que o projeto visa resolver.
-- **Limitações**: Delimitação dos problemas que o projeto não abordará.
+# 2. Descrição do Projeto
 
-## 3. Especificação Técnica
+## 2.1 Tema do Projeto
+Sistema de gestão de vendas com recomendação inteligente para vendedores. 
 
-Descrição detalhada da proposta, incluindo requisitos de software, protocolos, algoritmos, procedimentos, formatos de dados, etc.
+## 2.2 Problemas a Resolver  
+● Dificuldade dos vendedores em identificar oportunidades.  
+● Baixa personalização na oferta de produtos.  
+2.3 Limitações  
+● O sistema não realizará automação de pedidos.  
+● A recomendação se baseará apenas no histórico de compras e não em outros fatores                
+(ex.: sazonalidade, preferências externas).
 
-### 3.1. Requisitos de Software
-- Apresentar os requisitos do tema proposto.
-- **Lista de Requisitos:** Apresentar uma lista contendo os Requisitos Funcionais (RF) e Não-Funcionais (RNF).
-- **Representação dos Requisitos:** Representar os RFs por meio de um Diagrama de Casos de Uso (UML).
+# 3. Especificação Técnica
 
-### 3.2. Considerações de Design
+## 3.1. Requisitos de Software
+Lista de Requisitos  
+● RF01: O sistema deve permitir o cadastro de clientes.  
+● RF02: O sistema deve permitir o registro de vendas.  
+● RF03: O sistema deve gerar relatórios e gráficos das vendas  
+● RF04: O sistema deve fornecer recomendações de produtos para os vendedores 
+com base nas vendas anteriores.  
+Requisitos Não-Funcionais  
+● RNF01: O sistema deve ter uma interface intuitiva e responsiva. 
+● RNF02: O sistema deve garantir a segurança dos dados dos clientes. 
+● RNF03: O sistema deve processar recomendações de forma eficiente.
 
-- Discussão sobre as escolhas de design, incluindo alternativas consideradas e justificativas para as decisões tomadas.
-- **Visão Inicial da Arquitetura**: Descrição dos componentes principais e suas interconexões.
-- **Padrões de Arquitetura**: Indicação de padrões específicos utilizados (ex.: MVC, Microserviços).
-- **Modelos C4**: Detalhamento da arquitetura em níveis: Contexto, Contêineres, Componentes, Código.
+## 3.2. Considerações de Design
+● Uso de arquitetura MVC (Model-View-Controller).  
+● Repositório de dados estruturados para melhorar o desempenho.
 
-### 3.3. Stack Tecnológica
-
-- **Linguagens de Programação**: Justificativa para a escolha de linguagens específicas.
-- **Frameworks e Bibliotecas**: Frameworks e bibliotecas a serem utilizados.
-- **Ferramentas de Desenvolvimento e Gestão de Projeto**: Ferramentas para desenvolvimento e gestão do projeto.
-... qualquer outra informação referente a stack tecnológica ...
+## 3.3. Stack Tecnológica
+● Linguagens: Python e PHP 
+● Framework Backend: Adianti Framework 
+● Banco de Dados: MySQL  
+● Frontend: HTML, CSS e JavaScript 
+● Machine Learning: Scikit-learn
 
 ### 3.4. Considerações de Segurança
 
