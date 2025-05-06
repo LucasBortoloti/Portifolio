@@ -41,7 +41,8 @@ Sistema de gestão de vendas com recomendação inteligente para vendedores.
 ## 2.2 Problemas a Resolver  
 ● Dificuldade dos vendedores em identificar oportunidades.  
 ● Baixa personalização na oferta de produtos.  
-2.3 Limitações  
+
+## 2.3 Limitações 
 ● O sistema não realizará automação de pedidos.  
 ● A recomendação se baseará apenas no histórico de compras e não em outros fatores                
 (ex.: sazonalidade, preferências externas).
@@ -65,10 +66,10 @@ Requisitos Não-Funcionais
 ● Repositório de dados estruturados para melhorar o desempenho.
 
 ## 3.3. Stack Tecnológica
-● Linguagens: Python e PHP 
-● Framework Backend: Adianti Framework 
-● Banco de Dados: MySQL  
-● Frontend: HTML, CSS e JavaScript 
+● Linguagens: Python e PHP
+● Framework Backend: Adianti Framework
+● Banco de Dados: MySQL
+● Frontend: HTML, CSS e JavaScript
 ● Machine Learning: Scikit-learn
 
 ### 3.4. Considerações de Segurança
