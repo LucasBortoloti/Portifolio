@@ -90,48 +90,37 @@ O sistema de gestão de vendas com recomendação inteligente exige atenção es
 
 ## 4. Próximos Passos
 
-A seguir, estão os principais marcos previstos para a execução do projeto durante os Portfólios I e II:
+A seguir, estão os principais marcos previstos para a execução do projeto durante os Portfólios I e II:  
 
-Portfólio I (2025/1): Documentação
+Portfólio I (2025/1): Documentação  
 
-• Definição do escopo e requisitos do sistema
-• Criação dos diagramas de classes, casos de uso e atividades
-• Estruturação da arquitetura (MVC) e escolha da stack
-• Conclusão da documentação técnica (RFC)
+• Definição do escopo e requisitos do sistema  
+• Criação dos diagramas de classes, casos de uso e atividades  
+• Estruturação da arquitetura (MVC) e escolha da stack  
+• Conclusão da documentação técnica (RFC)  
 
-Portfólio II (2025/2): Desenvolvimento
+Portfólio II (2025/2): Desenvolvimento  
 
-• Agosto: Implementação das telas de cadastro e histórico
-
-• Setembro: Integração do módulo de recomendação e geração de relatórios
-
-• Outubro: Implementação da segurança e realização de testes
-
-• Novembro: Finalização do sistema e entrega com documentação atualizada
-
-• Dezembro: Apresentação do projeto
-
+• Agosto: Implementação das telas de cadastro e histórico  
+• Setembro: Integração do módulo de recomendação e geração de relatórios  
+• Outubro: Implementação da segurança e realização de testes  
+• Novembro: Finalização do sistema e entrega com documentação atualizada  
+• Dezembro: Apresentação do projeto  
 
 ## 5. Referências
 
 • Adianti Framework. Disponível em: https://adiantiframework.com.br/
 
-
 • MySQL Documentation. Disponível em: https://dev.mysql.com/doc/
-
 
 • Scikit-learn: Machine Learning in Python. Disponível em: https://scikit-learn.org/
 
-
 • Kaggle Datasets - Amazon Electronics Products. Disponível em: https://www.kaggle.com/datasets
-
 
 • LGPD - Lei Geral de Proteção de Dados. Lei nº 13.709/2018.
 
 ## 6. Avaliações de Professores
 
-Considerações Professor/a: Vanessa Gil - 15/05/25
-
-Considerações Professor/a: Andrei Carniel - 30/05/25
-
-Considerações Professor/a: Leonardo Vitazik Neto - 02/06/25
+Considerações Professor/a: Vanessa Gil - 15/05/25  
+Considerações Professor/a: Andrei Carniel - 30/05/25  
+Considerações Professor/a: Leonardo Vitazik Neto - 02/06/25  
