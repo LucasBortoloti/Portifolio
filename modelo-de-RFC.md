@@ -67,9 +67,13 @@ Requisitos Não-Funcionais
 
 ## 3.3. Stack Tecnológica
 • Linguagens: Python e PHP
+
 • Framework Backend: Adianti Framework
+
 • Banco de Dados: MySQL, com base de dados relacional construída a partir de um dataset público de produtos eletrônicos da Amazon (Amazon Electronics Dataset - Kaggle)
+
 • Front-end: HTML, CSS e JavaScript
+
 • Machine Learning: Scikit-learn, para implementação do módulo de recomendação baseado no histórico de compras dos clientes
 
 ### 3.4. Considerações de Segurança
@@ -98,9 +102,13 @@ Portfólio I (2025/1): Documentação
 Portfólio II (2025/2): Desenvolvimento
 
 • Agosto: Implementação das telas de cadastro e histórico
+
 • Setembro: Integração do módulo de recomendação e geração de relatórios
+
 • Outubro: Implementação da segurança e realização de testes
+
 • Novembro: Finalização do sistema e entrega com documentação atualizada
+
 • Dezembro: Apresentação do projeto
 
 
@@ -123,5 +131,7 @@ Portfólio II (2025/2): Desenvolvimento
 ## 6. Avaliações de Professores
 
 Considerações Professor/a: Vanessa Gil - 15/05/25
+
 Considerações Professor/a: Andrei Carniel - 30/05/25
+
 Considerações Professor/a: Leonardo Vitazik Neto - 02/06/25
