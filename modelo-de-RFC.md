@@ -66,30 +66,62 @@ Requisitos Não-Funcionais
 ● Repositório de dados estruturados para melhorar o desempenho.
 
 ## 3.3. Stack Tecnológica
-● Linguagens: Python e PHP  
-● Framework Backend: Adianti Framework  
-● Banco de Dados: MySQL  
-● Frontend: HTML, CSS e JavaScript  
-● Machine Learning: Scikit-learn
+• Linguagens: Python e PHP
+• Framework Backend: Adianti Framework
+• Banco de Dados: MySQL, com base de dados relacional construída a partir de um dataset público de produtos eletrônicos da Amazon (Amazon Electronics Dataset - Kaggle)
+• Front-end: HTML, CSS e JavaScript
+• Machine Learning: Scikit-learn, para implementação do módulo de recomendação baseado no histórico de compras dos clientes
 
 ### 3.4. Considerações de Segurança
 
-Análise de possíveis questões de segurança e como mitigá-las.
+O sistema de gestão de vendas com recomendação inteligente exige atenção especial à segurança dos dados, especialmente por lidar com informações de clientes e históricos de compra. A seguir, são descritas as principais considerações e medidas de segurança adotadas:
+
+• Criptografia de dados sensíveis: Informações pessoais dos clientes (como nome, e-mail) serão armazenadas com criptografia no banco de dados para garantir confidencialidade.
+
+• Autenticação e autorização: O sistema contará com controle de acesso baseado em perfis de usuário (admin, vendedor), utilizando autenticação segura por login e senha.
+
+• Backup e recuperação: Implementação de backups automáticos periódicos do banco de dados para garantir recuperação em caso de falha.
+
+• Proteção contra vazamento de dados: Conformidade com boas práticas de segurança e, quando aplicável, princípios da LGPD (Lei Geral de Proteção de Dados).
 
 ## 4. Próximos Passos
 
-Descrição dos passos seguintes após a conclusão do documento, com uma visão geral do cronograma para Portfólio I e II.
+A seguir, estão os principais marcos previstos para a execução do projeto durante os Portfólios I e II:
+
+Portfólio I (2025/1): Documentação
+
+• Definição do escopo e requisitos do sistema
+• Criação dos diagramas de classes, casos de uso e atividades
+• Estruturação da arquitetura (MVC) e escolha da stack
+• Conclusão da documentação técnica (RFC)
+
+Portfólio II (2025/2): Desenvolvimento
+
+• Agosto: Implementação das telas de cadastro e histórico
+• Setembro: Integração do módulo de recomendação e geração de relatórios
+• Outubro: Implementação da segurança e realização de testes
+• Novembro: Finalização do sistema e entrega com documentação atualizada
+• Dezembro: Apresentação do projeto
+
 
 ## 5. Referências
 
-Listagem de todas as fontes de pesquisa, frameworks, bibliotecas e ferramentas que serão utilizadas.
+• Adianti Framework. Disponível em: https://adiantiframework.com.br/
 
-## 6. Apêndices (Opcionais)
 
-Informações complementares, dados de suporte ou discussões detalhadas fora do corpo principal.
-## 7. Avaliações de Professores
+• MySQL Documentation. Disponível em: https://dev.mysql.com/doc/
 
-Adicionar três páginas no final do RFC para que os Professores escolhidos possam fazer suas considerações e assinatura:
-- Considerações Professor/a:
-- Considerações Professor/a:
-- Considerações Professor/a:
+
+• Scikit-learn: Machine Learning in Python. Disponível em: https://scikit-learn.org/
+
+
+• Kaggle Datasets - Amazon Electronics Products. Disponível em: https://www.kaggle.com/datasets
+
+
+• LGPD - Lei Geral de Proteção de Dados. Lei nº 13.709/2018.
+
+## 6. Avaliações de Professores
+
+Considerações Professor/a: Vanessa Gil - 15/05/25
+Considerações Professor/a: Andrei Carniel - 30/05/25
+Considerações Professor/a: Leonardo Vitazik Neto - 02/06/25
