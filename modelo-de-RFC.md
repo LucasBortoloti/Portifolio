@@ -1,8 +1,8 @@
 # Capa
 RFC - GESTÃO DE VENDAS  
-Título do Projeto: Sistema de Gestão de Vendas com Recomendação Inteligente para Lojas de Tecnologia
-Nome do Estudante: Lucas Bortoloti
-Curso: Engenharia de Software 
+Título do Projeto: Sistema de Gestão de Vendas com Recomendação Inteligente para Lojas de Tecnologia  
+Nome do Estudante: Lucas Bortoloti  
+Curso: Engenharia de Software  
 Data de Entrega: 07/05/2025  
 
 # Resumo
@@ -19,10 +19,10 @@ A maioria dos sistemas de gestão de vendas foca em controle administrativo e re
 ## 1.3 Objetivos
 Objetivo principal: Desenvolver um sistema inteligente de gestão de vendas voltado para lojas de tecnologia, com um módulo de recomendação de produtos baseado no histórico individual de compras dos clientes.
 
-Objetivos secundários: 
-● Implementar relatórios e gráficos. 
-● Criar um sistema escalável e seguro. 
-● Utilizar IA para melhorar estratégias de venda.
+Objetivos secundários:  
+● Implementar relatórios e gráficos.   
+● Criar um sistema escalável e seguro.   
+● Utilizar IA para melhorar estratégias de venda.  
 
 # 2. Descrição do Projeto
 
@@ -50,20 +50,20 @@ Sistema de gestão de vendas com recomendação para lojas de produtos tecnológ
 ## 3.1. Requisitos de Software
 Lista de Requisitos Funcionais
 
-● RF01: O sistema deve permitir o cadastro de clientes. 
-● RF02: O sistema deve permitir o registro de vendas. 
-● RF03: O sistema deve gerar relatórios e gráficos das vendas 
-● RF04: O sistema deve fornecer recomendações de produtos aos vendedores com base no histórico de compras individual de cada cliente, utilizando técnicas de machine learning.
+● RF01: O sistema deve permitir o cadastro de clientes.  
+● RF02: O sistema deve permitir o registro de vendas.  
+● RF03: O sistema deve gerar relatórios e gráficos das vendas  
+● RF04: O sistema deve fornecer recomendações de produtos aos vendedores com base no histórico de compras individual de cada cliente, utilizando técnicas de machine learning.  
 
-Requisitos Não-Funcionais 
+Requisitos Não-Funcionais  
 
-● RNF01: O sistema deve ter uma interface intuitiva e responsiva.
-● RNF02: O sistema deve garantir a segurança dos dados dos clientes.
-● RNF03: O sistema deve processar recomendações de forma eficiente.
+● RNF01: O sistema deve ter uma interface intuitiva e responsiva.  
+● RNF02: O sistema deve garantir a segurança dos dados dos clientes.  
+● RNF03: O sistema deve processar recomendações de forma eficiente.  
 
 ## 3.2. Considerações de Design
-● Uso de arquitetura MVC (Model-View-Controller). 
-● Repositório de dados estruturados para melhorar o desempenho. 
+● Uso de arquitetura MVC (Model-View-Controller).  
+● Repositório de dados estruturados para melhorar o desempenho.  
 
 ## 3.3. Stack Tecnológica
 • Linguagens: Python e PHP
