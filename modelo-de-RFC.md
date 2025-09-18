@@ -123,4 +123,4 @@ Portfólio II (2025/2): Desenvolvimento
 
 Considerações Professor/a: Vanessa Gil - 15/05/25  
 Considerações Professor/a: Andrei Carniel - 30/05/25  
-Considerações Professor/a: Leonardo Vitazik Neto - 02/06/25  
+Considerações Professor/a: Leonardo Vitazik Neto - 02/06/25
