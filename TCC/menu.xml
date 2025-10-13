@@ -3,8 +3,16 @@
         <icon>fas:sliders fa-fw</icon>
         <menu>
               <menuitem label='Vendas'>
-                  <icon>far:file-code fa-fw</icon>
+                  <icon>far:edit fa-fw</icon>
                   <action>VendasList</action>
+              </menuitem>
+              <menuitem label='Relatórios'>
+                  <icon>fas:file-medical-alt fa-fw</icon>
+                  <action>RelatorioVendas</action>
+              </menuitem>
+              <menuitem label='Gráficos'>
+                  <icon>fas:database fa-fw</icon>
+                  <action>GraficoVendas</action>
               </menuitem>
               <menuitem label='_t{Programs}'>
                   <icon>far:file-code fa-fw</icon>

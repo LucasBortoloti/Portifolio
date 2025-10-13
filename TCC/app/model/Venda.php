@@ -22,7 +22,7 @@ class Venda extends TRecord
         parent::addAttribute('total');
     }
 
-    // feito para eu pegar a quantidade da tabela venda_item e do model venda_item
+    // feito para eu pegar a quantidade da tabela venda_item e do model vendaitem
     public function get_venda_items()
     {
         if (empty($this->venda_items)) {
