@@ -65,7 +65,7 @@ Descrição: Para um cliente específico, o sistema exibe recomendações de pro
 
 ## 🗂️ Arquitetura (C4)  
 
-![Diagrama C4](TCC/c4.png)  
+![Diagrama C4](./TCC/c4.png)  
 
 ## 🧠 Arquitetura da IA / ML
 
