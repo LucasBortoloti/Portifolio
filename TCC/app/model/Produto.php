@@ -15,6 +15,7 @@ class Produto extends TRecord
 
         parent::addAttribute('id');
         parent::addAttribute('nome');
+        parent::addAttribute('categoria');
         parent::addAttribute('preco');
     }
 }

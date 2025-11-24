@@ -70,38 +70,12 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse navbar">
-                    <div class="nav-item" style="float:left">
-                        {MENUTOP}
-                    </div>
                     
                     <ul id="navbar-wrapper" class="navbar-nav hide-mobile" style="margin-right:10px">
                     </ul>
                     
                     <div class="nav-item" id="navbar-top-right-area">
-                        <div class="btn-group" id="has_notifications" style="display:none">
-                            <button type="button" data-bs-toggle="dropdown" title="_t{Notifications}" class="dropdown-toggle btn superlight" style="padding:5px;font-size:1rem">
-                                <i class="fa-regular fa-bell" style="font-size:1.2rem;float: left;margin-top: 3px;"></i>
-                                <span id="alert_notifications" class="position-absolute top-0 start-100 translate-middle p-2 bg-warning border border-light rounded-circle" style="padding: 5px !important;display:none"></span>
-                            </button>
-                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start" id="envelope_notifications">
-                                <li></li>
-                            </ul>
-                        </div>
-                        <div class="btn-group dropdown-center hide-mobile" id="has_messages" style="display:none">
-                            <button type="button" data-bs-toggle="dropdown" title="_t{Messages}" class="dropdown-toggle btn superlight" style="padding:5px;font-size:1rem">
-                                <i class="fa-regular fa-envelope" style="font-size:1.2rem;float: left;margin-top: 3px;"></i>
-                                <span id="alert_messages" class="position-absolute top-0 start-100 translate-middle p-2 bg-warning border border-light rounded-circle" style="padding: 5px !important;display:none"></span>
-                            </button>
-                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start" id="envelope_messages">
-                                <li></li>
-                            </ul>
-                        </div>
-                        <a id="has_docs" class="btn superlight hide-mobile" style="padding:5px;font-size:1rem;display:none" title="_t{Documents}" generator="adianti" href="index.php?class=SystemDriveList&method=onLoad&filter=my">
-                            <i class="far fa-folder" style="font-size:1.2rem;float: left;margin-top: 3px;"></i>
-                        </a>
-                        <a id="has_contacts" class="btn superlight hide-mobile" style="padding:5px;font-size:1rem;display:none" title="_t{Contacts}" generator="adianti" href="index.php?class=SystemContactsList&register_state=false">
-                            <i class="far fa-address-card" style="font-size:1.2rem;float: left;margin-top: 3px;"></i>
-                        </a>
+                        
                         <div class="btn-group">
                             <button type="button" data-bs-toggle="dropdown" class="dropdown-toggle btn superlight" style="padding:5px;font-size:1rem">
                                 <i class="far fa-circle-user" style="font-size:1.2rem;float: left;margin-top: 3px;"></i>
@@ -158,47 +132,11 @@
                                 </a>
                                 <!--[/ISCREATOR]-->
                                 
-                                <!--[IFADMIN]-->
-                                <button class="btn superlight hide-mobile" type="button" data-bs-toggle="offcanvas" data-bs-target="#debug-panel" aria-controls="debug-panel">
-                                    <i class="fa-solid fa-magnifying-glass"></i>
-                                    Trace
-                                </button>
-                                <a class="btn superlight hide-mobile" generator="adianti" href="index.php?class=SystemDatabaseExplorer">
-                                    <i class="fa-solid fa-database"></i>
-                                    DB
-                                </a>
-                                <a class="btn superlight hide-mobile" generator="adianti" href="index.php?class=SystemModulesCheckView&register_state=false">
-                                    <i class="fab fa-php" aria-hidden="true"></i>
-                                    PHP
-                                </a>
-                                <a class="btn superlight hide-mobile" generator="adianti" href="index.php?class=SystemFilesDiff&register_state=false">
-                                    <i class="fa fa-sitemap" aria-hidden="true"></i>
-                                    Framework
-                                </a>
-                                <a class="btn superlight hide-mobile" generator="adianti" href="index.php?class=SystemInformationView&register_state=false">
-                                    <i class="fa fa-microchip" aria-hidden="true"></i>
-                                    _t{System}
-                                </a>
-                                <!--[/IFADMIN]-->
-                                <a id="has_news" class="btn superlight" generator="adianti" href="index.php?class=SystemPostFeedView" style="display:none;padding:5px">
-                                    <i class="fa fa-rss"></i>
-                                    _t{News}
-                                </a>
-                                <a id="has_wiki" class="btn superlight" generator="adianti" href="index.php?class=SystemWikiSearchList" style="display:none;padding:5px">
-                                    <i class="fab fa-wikipedia-w"></i>
-                                    _t{Manuals}
-                                </a>
-                                <a id="has_support_form" class="btn superlight" generator="adianti" href="index.php?class=SystemSupportForm&register_state=false" style="display:none;padding:5px">
-                                    <i class="far fa-life-ring"></i>
-                                    _t{Open ticket}
-                                </a>
-                                
                                 <div id="has_main_mode_switch" class="form-check form-switch" title="_t{Dark mode}" style="margin-left: 10px;padding-top:5px;display:none">
                                     <input class="form-check-input" type="checkbox" role="switch" id="global_theme_switch" checked="" style="cursor:pointer" onclick="Template.toggleGlobalTheme(this)">
                                     <i class="fa-solid fa-circle-half-stroke"></i>
                                 </div>
                             </div>
-                            
                             
                         </div>
                     </div>

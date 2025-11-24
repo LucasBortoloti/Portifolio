@@ -4,7 +4,7 @@ return [
         'timezone' => 'America/Sao_Paulo',
         'language' => 'pt',
         'application' => 'template',
-        'title' => 'Adianti Template 8.2',
+        'title' => 'Gestão de Vendas',
         'theme' => 'meutema',
         'seed' => 'odfu6asnodf8as',
         'rest_key' => '',
