@@ -28,9 +28,7 @@ Projeto desenvolvido em PHP utilizando o Adianti Framework, Python e MySQL, cont
 ● RF01: O sistema deve permitir o cadastro de clientes.  
 ● RF02: O sistema deve permitir o registro de vendas.  
 ● RF03: O sistema deve gerar relatórios e gráficos das vendas  
-● RF04: O sistema deve fornecer recomendações de produtos aos vendedores com
-base no histórico de compras individual de cada cliente, utilizando técnicas de machine
-learning.  
+● RF04: O sistema deve fornecer recomendações de produtos aos vendedores com base no histórico de compras individual de cada cliente, utilizando **Inteligência Artificial**.  
 
 ## Casos de uso:  
 ● UC01 – Cadastrar Cliente  
@@ -67,7 +65,7 @@ Descrição: Para um cliente específico, o sistema exibe recomendações de pro
 
 ![Diagrama C4](c4.png)  
 
-## 🧠 Arquitetura da IA / ML
+## 🧠 Arquitetura da IA
 
 A IA utiliza um modelo não supervisionado baseado em:  
 
@@ -102,21 +100,25 @@ Essa abordagem:
 
 ### PHP  
 
-1) Instalar o XAMPP  
+1) Fazer o download do projeto  
 
-2) Colocar o projeto dentro da pasta:  
+2) Renomear a pasta raiz do projeto para TCC  
+
+3) Instalar o XAMPP  
+
+4) Colocar o projeto dentro da pasta:  
 
 C:\xampp\htdocs  
 
-3) Ativar Apache e MySQL do XAMPP  
+5) Ativar Apache e MySQL do XAMPP  
 
-4) Abrir o navegador no link:  
+6) Abrir o navegador no link:  
 
 http://localhost/phpmyadmin  
 
-5) Importar o banco de dados do projeto  
+7) Importar o banco de dados do projeto  
 
-6) Abrir o navegador no link:  
+8) Abrir o navegador no link:  
 
 http://localhost/TCC/  
 
@@ -159,7 +161,5 @@ cd C:\xampp\htdocs\TCC
 npm run test:frontend  
 
 3) Exemplo de saída esperada:  
-√ Deve exibir o título "Lista de Vendas" (12 ms)  
-√ Botão "Recomendar produtos" deve existir na tabela (6 ms)  
 Test Suites: 1 passed, 1 total  
 Tests:       2 passed, 2 total  
