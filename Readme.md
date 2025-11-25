@@ -108,30 +108,30 @@ Essa abordagem:
 
 4) Colocar o projeto dentro da pasta:  
 
-C:\xampp\htdocs  
+    C:\xampp\htdocs  
 
 5) Ativar Apache e MySQL do XAMPP  
 
 6) Abrir o navegador no link:  
 
-http://localhost/phpmyadmin  
+    http://localhost/phpmyadmin  
 
 7) Importar o banco de dados do projeto  
 
 8) Abrir o navegador no link:  
 
-http://localhost/TCC/  
+    http://localhost/TCC/  
 
 ### Python  
 
 1) Instalar dependências do Python:  
 
-cd app/python  
-pip install numpy pandas nltk sqlalchemy pymysql  
+    cd app/python  
+    pip install numpy pandas nltk sqlalchemy pymysql  
 
 2) Treinar o modelo  
 
-python treinar_modelo.py  
+    python treinar_modelo.py  
 
 ## 🧪 Testes  
 
@@ -140,26 +140,26 @@ O projeto utiliza PHPUnit para testes unitários, garantindo a integridade das r
 
 1) Como executar os testes:  
 
-Estar na pasta raiz do projeto:  
-cd C:\xampp\htdocs\TCC  
+    Estar na pasta raiz do projeto:  
+    cd C:\xampp\htdocs\TCC  
 
 2) Rode o PHPUnit:  
-.\vendor\bin\phpunit app/tests/php  
+    .\vendor\bin\phpunit app/tests/php  
 
 3) Exemplo de saída esperada:  
-6 / 6 (100%) - OK (6 tests, 10 assertions)  
+    6 / 6 (100%) - OK (6 tests, 10 assertions)  
 
 ### JS  
 O frontend utiliza Jest + JSDOM para validar a interface da tela de vendas (VendasList), garantindo que os elementos essenciais estejam presentes.  
 
 1) Como executar os testes:  
 
-Estar na pasta raiz do projeto:  
-cd C:\xampp\htdocs\TCC  
+    Estar na pasta raiz do projeto:  
+    cd C:\xampp\htdocs\TCC  
 
 2) Rode o comando:  
-npm run test:frontend  
+    npm run test:frontend  
 
 3) Exemplo de saída esperada:  
-Test Suites: 1 passed, 1 total  
-Tests:       2 passed, 2 total  
+    Test Suites: 1 passed, 1 total  
+    Tests:       2 passed, 2 total  
