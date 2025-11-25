@@ -37,7 +37,7 @@ class RecomendacaoService extends TPage
             $cliente_id = (int) $venda->cliente_id;
 
             $python = 'python';
-            $script = '"C:\\xampp\\htdocs\\TCC\\app\\python\\recomendacao_ml.py"';
+            $script = '"C:\\xampp\\htdocs\\TCC\\app\\python\\recomendacao.py"';
 
             // manda o cliente_id pro script gerar as recomendações
             $command = "{$python} {$script} {$cliente_id} 2>&1";
