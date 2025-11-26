@@ -24,13 +24,13 @@ Projeto desenvolvido em PHP utilizando o Adianti Framework, Python e MySQL, cont
 ### IA:  
 - Python 3.12  
 
-## Requisitos Funcionais:  
+## Requisitos Funcionais    
 ● RF01: O sistema deve permitir o cadastro de clientes.  
 ● RF02: O sistema deve permitir o registro de vendas.  
 ● RF03: O sistema deve gerar relatórios e gráficos das vendas  
 ● RF04: O sistema deve fornecer recomendações de produtos aos vendedores com base no histórico de compras individual de cada cliente, utilizando **Inteligência Artificial**.  
 
-## Casos de uso:  
+## Casos de uso  
 ● UC01 – Cadastrar Cliente  
 Ator: Vendedor  
 Descrição: O vendedor registra um novo cliente no sistema, preenchendo nome, CPF, cidade e estado.  
@@ -92,11 +92,11 @@ Essa abordagem:
 - Permite simular cenários realistas de recomendação;  
 - Gera relações coerentes para que a IA aprenda padrões de co-ocorrência;  
 
-## Implementação de pipeline CI/CD (ex.: GitHub Actions, GitLab CI).  
+## Implementação de pipeline CI/CD (ex.: GitHub Actions, GitLab CI)  
 
 ... fazer ainda  
 
-## ⚙️ Como Rodar o projeto:  
+## ⚙️ Como Rodar o projeto  
 
 ### PHP  
 
