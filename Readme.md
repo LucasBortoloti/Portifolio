@@ -164,6 +164,6 @@ O frontend utiliza Jest + JSDOM para validar a interface da tela de vendas (Vend
     Test Suites: 1 passed, 1 total  
     Tests:       2 passed, 2 total  
 
-## Vídeo do Projeto  
+## 🎥 Vídeo do Projeto  
 Link do Youtube:  
 https://www.youtube.com/watch?v=N7FXmr4k-lY  
