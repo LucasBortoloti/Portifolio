@@ -163,3 +163,7 @@ O frontend utiliza Jest + JSDOM para validar a interface da tela de vendas (Vend
 3) Exemplo de saída esperada:  
     Test Suites: 1 passed, 1 total  
     Tests:       2 passed, 2 total  
+
+## Vídeo do Projeto  
+Link do Youtube:  
+https://www.youtube.com/watch?v=N7FXmr4k-lY  
