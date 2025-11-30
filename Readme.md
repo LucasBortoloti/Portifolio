@@ -106,15 +106,20 @@ Essa abordagem:
 
     C:\xampp\htdocs  
 
-5) Ativar Apache e MySQL do XAMPP  
+5) Instalar as dependências do Composer:  
 
-6) Abrir o navegador no link:  
+    cd C:\xampp\htdocs\TCC  
+    composer install  
+
+6) Ativar Apache e MySQL do XAMPP  
+
+7) Abrir o navegador no link:  
 
     http://localhost/phpmyadmin  
 
-7) Importar o banco de dados do projeto  
+8) Importar o banco de dados do projeto  
 
-8) Abrir o navegador no link:  
+9) Abrir o navegador no link:  
 
     http://localhost/TCC/  
 
