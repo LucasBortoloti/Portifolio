@@ -92,10 +92,6 @@ Essa abordagem:
 - Permite simular cenários realistas de recomendação;  
 - Gera relações coerentes para que a IA aprenda padrões de co-ocorrência;  
 
-## Implementação de pipeline CI/CD (ex.: GitHub Actions, GitLab CI)  
-
-... fazer ainda  
-
 ## ⚙️ Como Rodar o projeto  
 
 ### PHP  
